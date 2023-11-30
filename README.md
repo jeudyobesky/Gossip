@@ -1,24 +1,45 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app call Gossip.
 
-Things you may want to cover:
+A user from a city can create an ARTICLE named POTIN
 
-* Ruby version
+Model:
 
-* System dependencies
+CITY
+COMMENT
+LIKE
+POTIN
+PRIVATE_MESSAGE 
+TAG_POTIN
+TAG
+USER 
+USER
+can create a COMMENT, 
+can LIKE A COMMENT OR A POTIN
+can create a POTIN (article)
+can sent and received PRIVATE_MESSAGE
 
-* Configuration
+POTIN (article)
+have a USER creator
+can have multiple TAG.
+can have multiple LIKE
+can have multiple COMMENT
 
-* Database creation
+TAG
+can have mutilple POTIN
 
-* Database initialization
+TAG_POTIN
+JUNCTION_TABLE between TAG and POTIN
 
-* How to run the test suite
+CITY
+has_many USERS
 
-* Services (job queues, cache servers, search engines, etc.)
+COMMENT
+have a USER creator
+belongs_to a POTIN
 
-* Deployment instructions
+PRIVATE_MESSAGE
+message between user with a class USER to separate the sender_id and recipient_id
 
-* ...
+
