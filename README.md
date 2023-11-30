@@ -1,45 +1,48 @@
 # README
 
-This is an app call Gossip.
+This is an app call Gossip.</br>
 
-A user from a city can create an ARTICLE named POTIN
+A user from a city can create an ARTICLE named POTIN</br>
 
-Model:
+Model:</br>
 
-CITY
-COMMENT
-LIKE
-POTIN
-PRIVATE_MESSAGE 
-TAG_POTIN
-TAG
-USER 
-USER
-can create a COMMENT, 
-can LIKE A COMMENT OR A POTIN
-can create a POTIN (article)
-can sent and received PRIVATE_MESSAGE
+CITY</br>
+COMMENT</br>
+LIKE</br>
+POTIN</br>
+PRIVATE_MESSAGE</br>
+TAG_POTIN</br>
+TAG</br>
+USER</br>
+</br>
+</br>
 
-POTIN (article)
-have a USER creator
-can have multiple TAG.
-can have multiple LIKE
-can have multiple COMMENT
+USER</br>
+can create a COMMENT,</br> 
+can LIKE A COMMENT OR A POTIN</br>
+can create a POTIN (article)</br>
+can sent and received PRIVATE_MESSAGE</br>
 
-TAG
-can have mutilple POTIN
+POTIN (article)</br>
+have a USER creator</br>
+can have multiple TAG.</br>
+can have multiple LIKE</br>
+can have multiple COMMENT</br>
 
-TAG_POTIN
-JUNCTION_TABLE between TAG and POTIN
+TAG</br>
+can have mutilple POTIN</br>
 
-CITY
-has_many USERS
+TAG_POTIN</br>
+JUNCTION_TABLE between TAG and POTIN</br>
 
-COMMENT
-have a USER creator
-belongs_to a POTIN
+CITY</br>
+has_many USERS</br>
 
-PRIVATE_MESSAGE
-message between user with a class USER to separate the sender_id and recipient_id
+COMMENT</br>
+have a USER creator</br>
+belongs_to a POTIN</br>
+
+PRIVATE_MESSAGE</br>
+message between user with a class USER to separate the sender_id and recipient_id</br>
 
 
