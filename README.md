@@ -1,8 +1,12 @@
 # README
 
-This is an app call Gossip.</br>
+This is a Ruby on RAILS app call Gossip.</br>
 
 A user from a city can create an ARTICLE named POTIN</br>
+
+PAST THIS IN YOUR TERMINAL TO INIT THE APP:</br>
+rails db:drop db:create db:migrate db:seed</br></br>
+
 
 Model:</br>
 
@@ -19,7 +23,7 @@ USER</br>
 
 USER</br>
 can create a COMMENT,</br> 
-can LIKE A COMMENT OR A POTIN</br>
+can LIKE A COMMENT OR A POTIN (using the LIKE model)</br>
 can create a POTIN (article)</br>
 can sent and received PRIVATE_MESSAGE</br>
 
